@@ -31,16 +31,19 @@ export class BasicLineComponent implements OnInit {
      xAxis  :  {
       type: "category",
       data: 
-         ["agabli","medi","khalid"]
+      /*   ["agabli","medi","khalid","rred","testo"] */
+      chartData.map(m => (
+         m.name
+      )),
     },
     yAxis: {
       type: 'value'
     },
     series: [
       {
-        data:  chartData.map(m => ({
-          value : m.value
-        })),
+        data:  chartData.map(m => (
+          m.value
+        )),
         type: 'line'
       }]
   };

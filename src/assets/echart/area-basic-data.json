@@ -1,0 +1,31 @@
+[
+    {
+      "name": "Monday",
+      "code": 500
+    },
+    {
+      "name": "Tuesday",
+      "code": 300
+    },
+    {
+      "name": "Wednesday",
+      "code": 200
+    },
+    {
+      "name": "Thursday",
+      "code": 700
+    },
+    {
+      "name": "Friday",
+      "code": 850
+    },
+    {
+      "name": "Saturday",
+      "code": 300
+    },
+    {
+      "name": "Sunday",
+      "code": 950
+    }
+  ]
+  
