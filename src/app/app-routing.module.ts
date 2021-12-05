@@ -11,7 +11,8 @@ const routes: Routes = [
   { path : 'area-line-echart' , component : AreaBasicEchartComponent },
   { path : 'bar-line-echart' , component : BarBasicEchartComponent},
   { path : 'polar-basic-echart' , component : PolarBasicEchartComponent},
-  {path : 'stack-basic-echart', component : StackBasicEchartComponent}
+  {path : 'stack-basic-echart', component : StackBasicEchartComponent},
+  {path:'',redirectTo:'basic-line-echart', pathMatch: 'full' },
 ];
 
 @NgModule({
