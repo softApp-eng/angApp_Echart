@@ -10,7 +10,12 @@ export interface basicAreaEchartModel {
  
 }
 
+export interface basicAreaEchartModel2 {
+    value: number;
+    name: string;
+ 
+}
 export interface stackBasicEchartModel{
     name : string;
-    value : basicAreaEchartModel[];
+    value : basicAreaEchartModel2[];
 }
